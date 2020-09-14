@@ -6,7 +6,7 @@ FAIL: test_upper_case_names (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 21, in test_upper_case_names
     'Toutes les lettres doivent être en majuscule.'
-AssertionError: Lists differ: ['aaaa', 'aaaaaa', 'aaaaaaa', 'aaaaaa', 'aa[57 chars]aaa'] != ['NORD', 'ALCOOL', 'NERVEUX', 'EXAMEN', 'SA[57 chars]BET']
+AssertionError: Lists differ: ['aaaa', 'aaaaaa', 'aaaaaaa', 'aaaaaa', 'aa[48 chars]aaa'] != ['NORD', 'ALCOOL', 'NERVEUX', 'EXAMEN', 'SA[48 chars]BET']
 
 First differing element 0:
 'aaaa'
@@ -17,7 +17,6 @@ First differing element 0:
 -  'aaaaaaa',
 -  'aaaaaa',
 -  'aaaaa',
--  'aaaaa',
 -  'aaaaaaaa',
 -  'aaaaaaaaaaa',
 -  'aaaaa',
@@ -27,7 +26,6 @@ First differing element 0:
 +  'NERVEUX',
 +  'EXAMEN',
 +  'SABOT',
-+  'UNITÉ',
 +  'DIVERTIR',
 +  'ASSOCIATION',
 +  'PLUIE',
